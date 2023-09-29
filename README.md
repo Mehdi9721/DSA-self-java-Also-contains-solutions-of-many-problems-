@@ -10,3 +10,10 @@ Node is a object which store value,next address inside it. <br>
 we can initialise multiple values on a single node, (2->3->4->5->6) <br>
 2 is a node which has address of 3 <br>
 3 has address of 4 and so on <br>
+
+
+#### LinkedList Node always ponit to address while values stored in node.
+Linked is an ADT which can store unlimited node in it.
+
+### question approaches ->
+1= use slow and fast pointer for cycle findig, slow=node.next while fast=node.next.next
