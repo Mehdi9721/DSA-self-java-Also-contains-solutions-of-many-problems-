@@ -16,4 +16,11 @@ we can initialise multiple values on a single node, (2->3->4->5->6) <br>
 Linked is an ADT which can store unlimited node in it.
 
 ### question approaches ->
-1= use slow and fast pointer for cycle findig, slow=node.next while fast=node.next.next
+1= use slow and fast pointer for cycle findig, slow=node.next while fast=node.next.next <br>
+
+{
+## misc (HashMap)
+we create a hashmap using array also.
+fill array elements with -1 and add remove or delete as per need.
+
+}
