@@ -16,13 +16,15 @@ we can initialise multiple values on a single node, (2->3->4->5->6) <br>
 Linked is an ADT which can store unlimited node in it.
 
 ### question approaches ->
-1= use slow and fast pointer for cycle findig, slow=node.next while fast=node.next.next <br>
+1=> use slow and fast pointer for cycle findig, slow=node.next while fast=node.next.next <br>
+2=> To find where the cycle is started first just create a new pointer from head and move the pointer from next from the meating point (where they was meated while finding the cycle).<br>
 
-{
+
+
+
+
 ## misc (HashMap)
-we create a hashmap using array also.
-fill array elements with -1 and add remove or delete as per need.
-
-}
+we create a hashmap using array also.<br>
+fill array elements with -1 and add remove or delete as per need. <br>
 ## misc number game
 any number for finding greatest sum by adding to original number and other this type of problems can be solved by using two magical numbers which is "2" and "3".
