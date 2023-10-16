@@ -32,7 +32,7 @@ any number for finding greatest sum by adding to original number and other this 
 ## misc Stack
 stack can be implemented by using Array,dynamic Array and LinkedList. <br>
 
-## the 14 core patterns
+## THE 14 CORE PATTERNS OF DSA
 ### MISC sliding window
 (Not able to get)
 ### two pointers
