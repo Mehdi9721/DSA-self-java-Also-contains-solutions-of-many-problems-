@@ -20,6 +20,13 @@ Linked is an ADT which can store unlimited node in it.
 1=> use slow and fast pointer for cycle findig, slow=node.next while fast=node.next.next <br>
 2=> To find where the cycle is started first just create a new pointer from head and move the pointer from next from the meating point (where they was meated while finding the cycle).<br>
 
+## Recursion 
+### subsequence problem
+we can call subseq in a void return type, String s="abc", call function two times,at once only add string in ans string and in second just call without adding string <br>
+subseq(s.subString(1),ans+s.charAt(0)) <br>
+subseq(s.subString(1),ans) <br>
+
+
 
 
 
