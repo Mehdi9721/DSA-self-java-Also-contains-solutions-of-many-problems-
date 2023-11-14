@@ -2,6 +2,19 @@
 ## created own adt for array
 ## created subsequence pattern
 ## Sorting algorithms
+## AVL tree
+the Height can be maintain while insertion in BST <br>
+(int height) should also be added in tree class where data is declared<br>
+
+void height(){ <br>
+if(root==null)return -1; <br>
+return root.height; <br>
+} <br>
+The upper function will return -1 if root is null else return current height of root <br>
+
+NOW while inserting into BST just maintain the height of root before returning the root;<br>
+root.height= Math.max(height(root.left),height(root.right))+1; <br>
+the (+1) in the above code will increase the height by 1 when a new nood gets inserted in BST <br>
 
 ## BFS DFS
 bfs dfs is a important searching techniqes of a Tree <br>
